@@ -47,11 +47,11 @@ Docker 几乎就没有什么虚拟化的东西，并且直接复用了 Host 主�
 
 Linux系统内核获取：
 
-`$uname -a`
-
+```
+$uname -a
 输出：
-
-`Linux xxxxx.hostname 3.10.0-123.el7.x86_64 #1 SMP Mon Jun 30 12:09:22 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux`
+Linux xxxxx.hostname 3.10.0-123.el7.x86_64 #1 SMP Mon Jun 30 12:09:22 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux`
+```
 
 其中可以看出该主机的系统内核信息为3.10.0-123.el7.x86_64，即为3.10.0的64bit系统版本，符合docker安装系统要求。
 #### 2.1.2.2 安装docker
