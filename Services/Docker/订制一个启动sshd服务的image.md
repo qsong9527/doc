@@ -1,5 +1,5 @@
 # 后台运行一个启动了sshd服务的CentOS容器
-
+@author:jy.zenist.song, crate:2016-6-2, LastEdited:2016-6-2
 ##需求
 * 下载一个CentOS image
 * 在CentOS系统中安装sshd服务并另存为一个新的image
