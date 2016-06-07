@@ -1,4 +1,4 @@
-# 如何通过Docker安装Jenkins并发布
+# 如何通过Docker安装Jenkins
 @author jy.zenist.song create:2016-6-7, lasted Edit:2016-6-7
 
 ## 前言
@@ -150,6 +150,7 @@ $ docker run -p 8080:8080 -p 50000:50000 docker.io/jenkinsci/jenkins
 ```
 
 现在，jenkins已经安装部署完成了。
+
 
 
 
