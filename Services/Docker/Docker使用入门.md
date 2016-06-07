@@ -69,7 +69,14 @@ $docker run -i -t ubuntu /bin/bash
 #使用CTRL-p + CTRL-q 退出伪终端
 ```
 
-通过docker run 命令运行一个后台image,并长执行一个工作进程
+通过docker run 命令运行一个后台image, 并置于后台运行
+
+```
+#通过run -d 启动一个与后台运行的image
+$docker run -d ubuntu /bin/bash -D
+```
+
+通过定义JOB的方式，启动一个后台运行的image
 
 ```
 #开启一个Docker后端进程，并将容器ID赋值给JOB变量
